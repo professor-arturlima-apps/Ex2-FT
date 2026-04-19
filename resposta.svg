@@ -1,0 +1,22 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#000000" rx="10" />
+
+  <g stroke="#ffffff" stroke-width="2">
+    <line x1="50" y1="320" x2="550" y2="320" /> <line x1="100" y1="350" x2="100" y2="50" />  </g>
+
+  <g stroke="#ff4a4a" stroke-width="4">
+    <line x1="100" y1="320" x2="100" y2="100" />
+    <path d="M 100 100 L 93 115 L 107 115 Z" fill="#ff4a4a" stroke="none" />
+  </g>
+  <text x="115" y="110" fill="#ff4a4a" font-family="serif" font-style="italic" font-size="22">δ(t)</text>
+
+  <path d="M 100 280 Q 200 275, 350 200 T 550 20" 
+        fill="none" stroke="#ffcc00" stroke-width="4" stroke-dasharray="1000" stroke-dashoffset="1000">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="2s" begin="0.5s" fill="freeze" />
+  </path>
+
+  <text x="560" y="345" fill="white" font-family="serif" font-style="italic" font-size="22">t</text>
+  <text x="60" y="45" fill="white" font-family="serif" font-style="italic" font-size="22">h(t)</text>
+  
+</svg>
+
